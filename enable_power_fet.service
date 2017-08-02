@@ -1,0 +1,12 @@
+[Unit]
+Description=Enables FET that switches ZeroPhone power
+DefaultDependencies=no
+After=sysinit.target
+Before=basic.target
+
+[Service]
+Type=oneshot
+ExecStart=/opt/zerophone/enable_power_fet.sh
+
+[Install]
+WantedBy=basic.target
