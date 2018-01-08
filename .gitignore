@@ -50,3 +50,9 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+debian/zerophone-power-management
+debian/zerophone-power-management.debhelper.log
+debian/zerophone-power-management.substvars
+debian/zerophone-power-management.*.debhelper
+debian/files
