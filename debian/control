@@ -1,0 +1,17 @@
+Source: zerophone-power-management
+Section: electronics
+Priority: important
+Maintainer: Arsenijs Picugins <crimier@yandex.ru>
+Build-Depends:
+ debhelper (>= 9),
+ dh-systemd (>= 1.3)
+Standards-Version: 3.9.8
+Homepage: https://github.com/ZeroPhone/BootSetupScript
+Vcs-Git: https://github.com/ZeroPhone/BootSetupScript.git
+Vcs-Browser: https://github.com/ZeroPhone/BootSetupScript.git
+
+Package: zerophone-power-management
+Architecture: all
+Depends: ${misc:Depends}
+Description: ZeroPhone power management script, to be ran on boot
+ A small Bash script (in the future, hopefully, a kernel module) that runs early on ZeroPhone boot and sets up GPIOs

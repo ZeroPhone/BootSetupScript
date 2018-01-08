@@ -1,0 +1,6 @@
+zerophone-power-management for Debian
+------------------------------------
+
+This package contains a script that enables the ZeroPhone power FET upon bootup.
+
+ -- Arsenijs Picugins <crimier@yandex.ru>  Mon, 08 Jan 2018 00:27:21 +0000
